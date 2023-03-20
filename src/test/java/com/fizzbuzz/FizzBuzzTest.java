@@ -1,14 +1,14 @@
 package com.fizzbuzz;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 public class FizzBuzzTest {
-    
+
     @Test
     public void test_fizzbuzz_example() {
-        assertEquals(2, 2);
+        assertTrue(true);
     }
 
 }
